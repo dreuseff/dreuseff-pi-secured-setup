@@ -1,0 +1,6 @@
+{
+  "paths": [
+    "~/.agents/skills",
+    "/tmp"
+  ]
+}
