@@ -10,7 +10,7 @@
  *   2. Protected paths evaluation (read/write/edit only)
  *   3. Bash command classification (bash only)
  */
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import type { Config } from "./config.js";
 import type { GuardVerdict } from "./boundary.js";
 import { evaluateBoundary } from "./boundary.js";

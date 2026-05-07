@@ -4,7 +4,7 @@
  * Audit entries are appended to `~/.pi/agent/security/audit.jsonl`.
  * Log rotation is configurable via `audit-config.json`.
  */
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import {
 	appendFileSync,
 	existsSync,

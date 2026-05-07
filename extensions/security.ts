@@ -4,7 +4,7 @@
  * Multi-layer security: Guards that block dangerous actions,
  * Scanners that detect risks, and an audit trail that records everything.
  */
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { loadConfig } from "../lib/config.js";
 import { registerAuditCommand, initAuditLog, auditLog, getSessionId } from "../lib/audit.js";
 import { registerGuardPipeline } from "../lib/guard-pipeline.js";

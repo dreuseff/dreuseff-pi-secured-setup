@@ -8,7 +8,7 @@
  * Only scans the request — not the response. Input-side redaction prevents
  * secrets from reaching the model, so they cannot appear in responses.
  */
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import type { Config } from "./config.js";
 import { auditLog } from "./audit.js";
 
