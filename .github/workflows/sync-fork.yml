@@ -28,7 +28,9 @@ jobs:
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_repo: mwolff44/pi-secured-setup
           upstream_sync_branch: main
-          git_pull_args: --ff-only
+          upstream_pull_args: --ff-only
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: New commits found
         if: steps.sync.outputs.has_new_commits == 'true'
